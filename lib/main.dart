@@ -3,7 +3,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import 'features/expedientes/presentation/pages/login_page.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'core/theme/app_theme.dart';
-import 'features/expedientes/presentation/pages/expedientes_page.dart';
+import 'features/main_app/presentation/pages/main_app_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,7 +27,7 @@ class MainApp extends StatelessWidget {
       initialRoute: '/login',
       routes: {
         '/login': (_) => const LoginPage(),
-        '/expedientes': (_) => const ExpedientesPage(),
+        '/main': (_) => const MainAppPage(),
       },
     );
   }

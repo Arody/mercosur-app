@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
         password: _passwordController.text,
       );
       if (!mounted) return;
-      Navigator.of(context).pushReplacementNamed('/expedientes');
+      Navigator.of(context).pushReplacementNamed('/main');
     } on AuthException catch (error) {
       if (!mounted) return;
       ScaffoldMessenger.of(context)

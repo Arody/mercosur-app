@@ -25,6 +25,16 @@ class SideNav extends StatelessWidget {
           label: Text('Expedientes'),
         ),
         NavigationRailDestination(
+          icon: Icon(Icons.assignment_ind_outlined),
+          selectedIcon: Icon(Icons.assignment_ind),
+          label: Text('Supervisor'),
+        ),
+        NavigationRailDestination(
+          icon: Icon(Icons.admin_panel_settings_outlined),
+          selectedIcon: Icon(Icons.admin_panel_settings),
+          label: Text('Coordinador'),
+        ),
+        NavigationRailDestination(
           icon: Icon(Icons.analytics_outlined),
           selectedIcon: Icon(Icons.analytics),
           label: Text('Reportes'),
