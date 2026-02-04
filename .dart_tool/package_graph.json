@@ -333,6 +333,17 @@
       ]
     },
     {
+      "name": "leak_tracker",
+      "version": "11.0.2",
+      "dependencies": [
+        "clock",
+        "collection",
+        "meta",
+        "path",
+        "vm_service"
+      ]
+    },
+    {
       "name": "term_glyph",
       "version": "1.2.2",
       "dependencies": []
@@ -637,6 +648,11 @@
       ]
     },
     {
+      "name": "vm_service",
+      "version": "14.3.1",
+      "dependencies": []
+    },
+    {
       "name": "ffi",
       "version": "2.1.4",
       "dependencies": []
@@ -717,22 +733,6 @@
       "dependencies": [
         "web"
       ]
-    },
-    {
-      "name": "leak_tracker",
-      "version": "11.0.2",
-      "dependencies": [
-        "clock",
-        "collection",
-        "meta",
-        "path",
-        "vm_service"
-      ]
-    },
-    {
-      "name": "vm_service",
-      "version": "14.3.1",
-      "dependencies": []
     }
   ],
   "configVersion": 1
